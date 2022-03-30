@@ -11,6 +11,7 @@
         android:theme="@style/Theme.InternshipProjectOne">
         <activity
             android:name=".SubjectActivity"
+            android:screenOrientation="landscape"
             android:exported="true" />
         <activity
             android:name=".SplashScreen"

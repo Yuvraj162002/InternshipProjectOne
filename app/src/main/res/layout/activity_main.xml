@@ -6,27 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/black"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:background="#7bd3f7"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/rainbow" />
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/rainbow" />
+
 
     <Button
         android:id="@+id/classone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="75dp"
         android:backgroundTint="#9ACD32"
         android:bottomLeftRadius="10dp"
         android:bottomRightRadius="30dp"
@@ -35,7 +36,7 @@
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,9 +44,9 @@
         android:id="@+id/classthree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="55dp"
         android:backgroundTint="#DC143C"
         android:bottomLeftRadius="10dp"
         android:bottomRightRadius="30dp"
@@ -53,18 +54,17 @@
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintHorizontal_bias="0.652"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <Button
         android:id="@+id/classtwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="260dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="75dp"
         android:backgroundTint="@color/teal_200"
         android:bottomLeftRadius="10dp"
         android:bottomRightRadius="30dp"
@@ -72,7 +72,7 @@
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.389"
+        app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -80,9 +80,9 @@
         android:id="@+id/classfour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="260dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="55dp"
         android:backgroundTint="#6495ED"
         android:bottomLeftRadius="10dp"
         android:bottomRightRadius="30dp"
@@ -90,7 +90,7 @@
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintHorizontal_bias="0.651"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
